@@ -1,0 +1,8 @@
+import matplotlib.pyplot as plt
+age = [20, 23, 25, 27, 29]
+salary = [23000, 25000, 40000, 33000, 200000]
+plt.plot(age,salary)
+plt.xlabel(' age ')  #This adds label to X axis
+plt.ylabel('Salary per month in rupees') #This adds label to Y axis
+plt.title('Age vs Salary graph')
+plt.show()

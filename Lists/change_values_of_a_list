@@ -1,0 +1,6 @@
+names = ["Sridhar", "Adithya"]
+names.append("Sirisha")
+names.insert(0,"Nikil")
+names[1] = "Simon" #This will change Nikhil to Simon
+names.insert(-1,"Nikil") #This will insert "Nikjil" just before the last value i.e Sirisha
+print(names)

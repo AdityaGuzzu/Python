@@ -1,0 +1,5 @@
+#sort() function sorts the list in ascending order
+numbers = [2, 4, 6, 8, 19, 11]
+print(numbers)
+numbers.sort() #This changes the order of values in the list "numbers".
+print(numbers)

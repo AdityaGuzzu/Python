@@ -1,0 +1,4 @@
+#max() function is used to stor the maximum value in the list!
+numbers = [1, 5, 7, 9, 11, 35]
+y = max(numbers)
+print(y)
