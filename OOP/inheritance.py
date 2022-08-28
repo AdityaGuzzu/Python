@@ -2,18 +2,22 @@
 We will implement inheritance
 '''
 
+
 class Player:
-    def __int__(self,name):
+    def __int__(self, name):
         self.name = name
-        print(f"Player name is {self.name}")
+        print(f"\nPlayer name is {self.name}")
 
 
 class Bowler(Player):
-    def __int__(self, wickets):
+    def __int__(self, name, wickets):
+        Player.__init__(self, name)
         self.wickets = wickets
-        print(f"The number of wickets are: {self.wickets}")
+        print(f"The number of wickets of {self.name} are: {self.wickets}")
 
 
-player = Player("Kohli")
+pl_name = "Kohli"
+# player = Player(name)
+bowler = Bowler()
+print(bowler.name)
 
-bowler = Bowler(20)
