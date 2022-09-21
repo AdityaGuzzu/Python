@@ -1,0 +1,9 @@
+WHAT EXACTLY IS NUMPY?
+	---> Numpy stands for numerical python
+	---> Numpy is the core library for scientific and numerical computing
+	in python.
+	---> It provides high performance with multi dimensional array object and tools for 
+	working with arrays
+	---> Its core feature is the multidimensional arrays with each dimension being called an axis.
+	---> NumPy is the core Python library for many scientific, data analytic tasks. There are a lot
+	of libraries built on NumPy, so NumPy is really crucial.
