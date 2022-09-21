@@ -39,7 +39,7 @@ res = [(z+l) for z,l in zip(k1,k2)]
 print("The NumPy array took ", (time.time()-start)*1000,"seconds")
 
 '''
-I don;t know why but NumPy arrays are slower on my devide
+I don;t know why but NumPy arrays are slower on my device
 '''
 
 
