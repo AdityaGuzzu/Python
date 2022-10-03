@@ -1,5 +1,5 @@
 import csv
-with open('read/data.csv', 'r') as read_data:
+with open('read/pl_stats.csv', 'r') as read_data:
     csv_reader = csv.reader(read_data)
 
     with open('data.csv', 'w') as write_data:
