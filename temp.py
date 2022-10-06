@@ -1,3 +1,3 @@
-import numpy as np
-for date in np.arange(1,32):
-    print(str(date)+"\07\2016")
+import pandas as pd
+df = pd.DataFrame([[1,2,3,4,5,6],[1,2,3,4,5,6]])
+print(df[1][1])

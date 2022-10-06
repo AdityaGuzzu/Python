@@ -10,7 +10,7 @@ world_df = pd.read_csv('E:/python/Data/parsed_country_data.csv')
 number_of_countries = world_df.shape[0] - 1
 #First, lets find the total population of all the countries
 world_population = sum(world_df['Population'])
-print("The population of the world is: ",world_population)
+print("The population of the world is: ", world_population)
 
 '''
 We know that the shape member variable of the data frame returns a tuple containing the dimensions of the dataframe.
