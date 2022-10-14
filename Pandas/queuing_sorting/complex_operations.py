@@ -1,7 +1,9 @@
 import pandas as pd
+
 '''
 We will use the querying methods discussed in boolean_series.py to carry out complex operations
 '''
+
 world_df = pd.read_csv('E:/python/Data/parsed_country_data.csv')
 
 '''
